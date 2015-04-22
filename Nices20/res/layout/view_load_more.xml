@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal">
+    
+    <com.cjj.loading.CircularProgress
+        xmlns:cjj="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/circularProgress1"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:layout_margin="2dp"
+        cjj:borderWidth="2dp" />
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="6dp"
+        android:textSize="14sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="载入中" />
+
+</LinearLayout>

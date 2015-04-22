@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NiceS</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">首页</string>
+    <string name="picture">图片</string>
+    <string name="favorite">收藏</string>
+    <string name="video">视频</string>
+    <string name="support">支持</string>
+    <string name="messages">消息</string>
+
+    <string-array name="title">
+        <item>支持我</item>
+        <item>关于我</item>
+        <item>关于NiceS</item>
+    </string-array>
+
+</resources>

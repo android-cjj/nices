@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_favorite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <View 
+        android:id="@+id/view_deve"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="#00ff0000"
+        />
+  <LinearLayout
+        android:id="@+id/adLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    <in.srain.cube.views.GridViewWithHeaderAndFooter 
+        android:id="@+id/gv_favorite"
+        android:layout_below="@+id/adLayout"
+        android:numColumns="auto_fit"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></in.srain.cube.views.GridViewWithHeaderAndFooter>
+    
+    <TextView 
+        android:id="@+id/tv_tip"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您还没有添加收藏哦"
+        />
+    
+  
+</RelativeLayout>
